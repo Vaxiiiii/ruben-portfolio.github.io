@@ -48,7 +48,7 @@ nav {
 }
 
 .nav_buttons:hover {
-  transition: 0.2s;
+  transition: 0.3s;
   text-decoration: 3px underline;
 }
 
@@ -72,7 +72,7 @@ nav {
   margin: 0 10px 0 10px;
   border-radius: 50%;
   border: 5px solid teal;
-  box-shadow: 20px 20px #17252a;
+  box-shadow: 10px 10px #17252a;
 }
 
 .profilepicture {
@@ -80,6 +80,8 @@ nav {
   height: 60vh;
   border-radius: 50%;
   border: 3px solid #17252a;
+  background-color: #3aafa9 ;
+  box-shadow: 10px 10px #17252a;
 }
 
 button {
@@ -93,7 +95,7 @@ button {
 }
 
 button:hover {
-  transition: 0.1s;
+  transition: 0.3s;
   background: #17252a;
   color: #f6f6f2;
 }
@@ -152,11 +154,14 @@ section#contact {
 
 ul {
   list-style: none;
-  border: 1px solid black;
 }
 
 li{
   border: 1px solid black;
+  border-radius: 10px;
+  margin: 10px;
+  box-shadow: 10px;
+  box-shadow: 10px 1cap #17252a;
 }
 
 .educationinformation {
@@ -167,6 +172,7 @@ li{
 
 .educationcontainer {
   border: 1px solid #17252a;
+  padding: 20px;
 }
 
 .contact-form {
@@ -178,6 +184,32 @@ li{
 }
 
 .contact-input {
-  padding-top: 5%;
-  margin-top: 5%;
+  width: 100%;
+  margin: 10px;
+  padding: 20px;
+  border-radius: 16px;
+  font-size: large;
+}
+
+.aboutinformation li{
+  padding: 30px;
+  margin-left: 10px;
+}
+
+
+.aboutinfo, h1{
+  font-size: xx-large ;
+}
+
+.contact-submit{
+  padding: 20px;
+  border-radius: 8px;
+  width: 100%;
+  border-color: #17252a;
+}
+
+.contact-submit:hover{
+  background-color: #17252a;
+  color: white;
+  border: .5px;
 }
